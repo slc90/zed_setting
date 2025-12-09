@@ -1,0 +1,75 @@
+// Zed keymap
+//
+// For information on binding keys, see the Zed
+// documentation: https://zed.dev/docs/key-bindings
+//
+// To see the default key bindings run `zed: open default keymap`
+// from the command palette.
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      // "shift shift": "file_finder::Toggle"
+    }
+  },
+  {
+    "context": "Editor && vim_mode == insert",
+    "bindings": {
+      // "j k": "vim::NormalBefore"
+    }
+  },
+  {
+    "bindings": {
+      "shift-f5": null
+    }
+  },
+  {
+    "bindings": {
+      "shift-f11": null
+    }
+  },
+  {
+    "bindings": {
+      "f10": null
+    }
+  },
+  {
+    "bindings": {
+      "ctrl-shift-f5": null
+    }
+  },
+  {
+    "context": "BreakpointList",
+    "bindings": {
+      "backspace": null
+    }
+  },
+  {
+    "bindings": {
+      "f6": null
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "f5": null
+    }
+  },
+  {
+    "bindings": {
+      "f4": "debugger::Start"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-d": "editor::DuplicateLineDown"
+    }
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "alt-shift-down": null
+    }
+  }
+]

@@ -7,34 +7,45 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "buffer_font_weight": 400.0,
+  "show_wrap_guides": true,
+  "agent": {
+    "always_allow_tool_actions": true,
+    "default_profile": "ask",
+    "default_model": {
+      "provider": "deepseek",
+      "model": "deepseek-chat",
+    },
+    "model_parameters": [],
+  },
   "tabs": {
     "show_diagnostics": "off",
     "show_close_button": "always",
     "file_icons": false,
-    "git_status": false
+    "git_status": false,
   },
   "title_bar": {
     "show_branch_name": true,
     "show_project_items": true,
     "show_menus": true,
-    "show_branch_icon": true
+    "show_branch_icon": true,
   },
-  "soft_wrap": "none",
+  "soft_wrap": "editor_width",
   "excerpt_context_lines": 3,
   "hide_mouse": "never",
   "git_panel": {
-    "sort_by_path": false
+    "sort_by_path": false,
   },
   "icon_theme": "Catppuccin Macchiato",
   "terminal": {
-    "dock": "right"
+    "dock": "bottom",
   },
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "base_keymap": "VSCode",
   "ui_font_size": 16,
-  "buffer_font_size": 16.0,
-  "theme": "Catppuccin Macchiato"
+  "buffer_font_size": 20.0,
+  "theme": "Catppuccin Macchiato",
 }

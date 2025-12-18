@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "inlay_hints": {
+    "enabled": true
+  },
   "buffer_font_weight": 400.0,
   "show_wrap_guides": true,
   "agent": {
@@ -14,7 +17,7 @@
     "default_profile": "ask",
     "default_model": {
       "provider": "deepseek",
-      "model": "deepseek-chat",
+      "model": "deepseek-reasoner",
     },
     "model_parameters": [],
   },

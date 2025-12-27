@@ -8,7 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "inlay_hints": {
-    "enabled": true
+    "enabled": true,
   },
   "buffer_font_weight": 400.0,
   "show_wrap_guides": true,
@@ -37,6 +37,7 @@
   "excerpt_context_lines": 3,
   "hide_mouse": "never",
   "git_panel": {
+    "tree_view": false,
     "sort_by_path": false,
   },
   "icon_theme": "Catppuccin Macchiato",
@@ -51,4 +52,5 @@
   "ui_font_size": 16,
   "buffer_font_size": 20.0,
   "theme": "Catppuccin Macchiato",
+  "proxy": "http://127.0.0.1:7890",
 }

@@ -46,18 +46,7 @@
   },
   {
     "bindings": {
-      "f6": null
-    }
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "f5": null
-    }
-  },
-  {
-    "bindings": {
-      "f4": "debugger::Start"
+      "f6": "debugger::Start"
     }
   },
   {
@@ -76,6 +65,23 @@
     "context": "Editor",
     "bindings": {
       "alt-enter": "editor::ToggleCodeActions"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "f5": [
+        "task::Spawn",
+        {
+          "reveal_target": "center"
+        }
+      ]
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-shift-r": null
     }
   }
 ]
